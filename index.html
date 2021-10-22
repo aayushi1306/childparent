@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Position</title>
+        <style>
+            .box{
+                width: 600px;
+                height: 600px;
+                background-color: red;
+                position: relative;
+                border: 4px solid #000;
+                margin: auto;
+                overflow: hidden;
+            }
+            .common1{
+                width: 300px;
+                height: 300px;
+                border: 3px solid #000;
+                position: absolute;
+            }
+            .a1{
+                background-color:hotpink;
+                top: 0px;
+                right: 0px;
+            }
+            .a2{
+                background-color:maroon;
+                bottom: 0px;
+                right: 0px;
+            }
+            .a3{
+                background-color: forestgreen;
+                top:0px;
+                left:0px;
+            }
+            .a4{
+                background-color:teal;
+                bottom:0px;
+                left:0px;
+            }
+            .a11{
+                background-color:yellow;
+                top: 0px;
+                right: 0px;
+            }
+            .a12{
+                background-color: red;
+                bottom: 0px;
+                right: 0px;
+            }
+            .a13{
+                background-color:orchid;
+                top:0px;
+                left:0px;
+            }
+            .a14{
+                background-color: darksalmon;
+                bottom:0px;
+                left:0px;
+            }
+            .box2{
+                width: 595px;
+                height: 595px;
+                background-color: red;
+                overflow: hidden;
+                border: 3px solid #000; 
+                border-radius: 595px;
+                position: absolute;
+                top:0px;
+                left:0px;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="index2"> Pure js using web design</a>
+        <div class="box">
+            <div class="a1 common1"></div>
+            <div class="a2 common1"></div>
+            <div class="a3 common1"></div>
+            <div class="a4 common1"></div>
+            <div class="box2 common1">
+                <div class="a11 common1"></div>
+                <div class="a12 common1"></div>
+                <div class="a13 common1"></div>
+                <div class="a14 common1"></div>
+            </div>
+        </div>
+    </body>
+</html>
